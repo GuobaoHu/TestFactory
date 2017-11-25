@@ -5,5 +5,20 @@ package guyue.hu;
  * @class describ:
  */
 public class TestFactory {
+	public static void main(String[] args) {
+		new BMW320();
+		new BMW523();
+	}
+}
 
+class BMW320 {
+	public BMW320() {
+		System.out.println("生产了一辆BMW320");
+	}
+}
+
+class BMW523 {
+	public BMW523() {
+		System.out.println("生产了一辆BMW523");
+	}
 }
