@@ -13,12 +13,12 @@ public class TestFactory {
 
 class BMW320 {
 	public BMW320() {
-		System.out.println("生产了一辆BMW320");
+		System.out.println("制造--->BMW320");
 	}
 }
 
 class BMW523 {
 	public BMW523() {
-		System.out.println("生产了一辆BMW523");
+		System.out.println("制造--->BMW523");
 	}
 }
